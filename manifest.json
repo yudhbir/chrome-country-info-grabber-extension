@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3, 
+    "name": "Country Information", 
+    "description": "Country Information Extension display the country Information with country capital and lat, long",
+    "version": "1.0",
+    "author": "Yudhbir Singh",
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      },
+    "action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html",
+        "default_title": "Country Information Widget"
+    },    
+    "permissions": [
+        "activeTab"
+     ]
+}
